@@ -20,10 +20,10 @@
 
 title: 首富频道-------虎哥博客
 email: huge2090@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >
   首富频道:https://www.youtube.com/@shoufu
   我的推特：https://twitter.com/huge2090
-如果你喜欢我的视频别忘了订阅我的频道，打开小铃铛！~~
+  如果你喜欢我的视频别忘了订阅我的频道，打开小铃铛！~~
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hugevip.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: huge2090
