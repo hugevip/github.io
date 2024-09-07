@@ -1,5 +1,5 @@
 title: "首富虎哥的个人博客"
-<h2>我会在这里分享关于我YouTube上加密货币投资、电脑挖矿和WEB3撸毛的视频教程文档。如果你有兴趣，请关注和订阅我的频道！<a href="https://twitter.com/huge2090" target="_blank">推特</a> 和 <a href="https://www.youtube.com/@shoufu" target="_blank">YouTube 频道</a>。</h2>
+description: "我会在这里分享关于我YouTube上加密货币投资、电脑挖矿和WEB3撸毛的视频教程文档。如果你有兴趣，请关注和订阅我的频道！[推特](https://twitter.com/huge2090) 和 [YouTube 频道](https://www.youtube.com/@shoufu)。"
 baseurl: ""
 url: "https://hugevip.github.io/blog"
 theme: jekyll-theme-hacker
@@ -8,11 +8,10 @@ plugins:
 show_downloads: false
 
 google_analytics:
-  # 将 'UA-XXXXX-Y' 替换为你的 Google Analytics 跟踪 ID
   tracking_id: UA-XXXXX-Y
 
-# 社交媒体链接
 social:
   twitter: "https://twitter.com/huge2090"
   youtube: "https://www.youtube.com/@shoufu"
+
 
