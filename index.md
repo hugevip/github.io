@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "首富虎哥的个人博客"
 description: "在这里，我将分享关于加密货币投资、电脑挖矿和WEB3领域的各种视频教程和文档。"
 ---
