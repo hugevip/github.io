@@ -5,7 +5,8 @@ url: "https://hugevip.github.io/blog"
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-show_downloads: true
+show_downloads: false
+
 google_analytics:
   # 将 'UA-XXXXX-Y' 替换为你的 Google Analytics 跟踪 ID
   tracking_id: UA-XXXXX-Y
