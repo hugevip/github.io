@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
 
-{% seo %}
+    {% seo %}
   </head>
 
   <body>
@@ -19,6 +20,8 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
+        <!-- 删除下载和 GitHub 按钮部分 -->
+        <!--
         <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
@@ -26,6 +29,7 @@
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
+        -->
       </div>
     </header>
 
