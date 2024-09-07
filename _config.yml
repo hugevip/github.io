@@ -1,8 +1,8 @@
 title: "首富虎哥的个人博客"
 description: "我会在这里分享关于我youtube上加密货币投资、电脑挖矿和WEB3撸毛的视频教程文档"
-baseurl: "/blog" # 如果你的站点在子目录 `/blog` 下
-url: "https://hugevip.github.io/blog" # 你的 GitHub Pages URL
-remote_theme: pages-themes/hacker@v0.2.0
+baseurl: "" # 留空如果你的站点在根目录
+url: "https://hugevip.github.io" # 替换为你的 GitHub Pages URL
+remote_theme: pages-themes/hacker@v0.2.0 # 使用 Hacker 主题
 plugins:
   - jekyll-remote-theme
-
+  - jekyll-feed
