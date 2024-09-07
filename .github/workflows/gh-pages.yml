@@ -1,32 +1,23 @@
-name: Build and Deploy
+name: GitHub Pages
 
 on:
   push:
     branches:
-      - main  # 或你的默认分支名称
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '2.7'
-
-      - name: Install dependencies
-        run: bundle install
-
-      - name: Build the site
-        run: bundle exec jekyll build --destination ./_site
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v2
+      with:
+        ruby-version: '2.7'
+    - run: gem install jekyll bundler
+    - run: bundle install
+    - run: bundle exec jekyll build
+    - uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
