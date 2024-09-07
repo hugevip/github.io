@@ -13,12 +13,16 @@
 
     <header>
       <div class="container">
-        {% unless page.layout == "home" %}
+        {% if page.layout == "home" %}
+          <!-- 首页显示大标题 -->
+          <h1>{{ site.title }}</h1>
+        {% else %}
+          <!-- 其他页面显示站点标题和描述 -->
           <a id="a-title" href="{{ '/' | relative_url }}">
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
           </a>
           <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        {% endunless %}
+        {% endif %}
         
         <section id="downloads">
           {% if site.show_downloads %}
@@ -37,3 +41,4 @@
     </div>
   </body>
 </html>
+
