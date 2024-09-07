@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>首富虎哥的个人博客</title>
-    <meta charset="UTF-8">
-</head>
-<body>
-    <h1>欢迎访问我的个人博客！</h1>
-    <p>在这里，我会在这里分享关于我youtube上区块链投资、电脑挖矿和WEB3撸毛的视频教程文档。如果你有兴趣，请关注订阅我的 <a href="https://twitter.com/huge2090">推特</a> 和 <a href="https://www.youtube.com/@shoufu">YouTube 频道</a>。</p>
-</body>
-</html>
+---
+layout: default
+title: "首富虎哥的个人博客"
+---
+
+欢迎访问我的个人博客！在这里，我会分享关于区块链投资、电脑挖矿和 WEB3 的教程。如果你有兴趣，请查看我的 [推特](https://twitter.com/huge2090) 和 [YouTube 频道](https://www.youtube.com/@shoufu)。
