@@ -1,17 +1,32 @@
+# 站点信息
 title: "首富虎哥的个人博客"
-description: "我会在这里分享关于我YouTube上加密货币投资、电脑挖矿和WEB3撸毛的视频教程文档。如果你有兴趣，请关注和订阅我的频道！[推特](https://twitter.com/huge2090) 和 [YouTube 频道](https://www.youtube.com/@shoufu)。"
-baseurl: ""
-url: "https://hugevip.github.io/blog"
-theme: jekyll-theme-hacker
-plugins:
-  - jekyll-feed
-show_downloads: false
+description: "在这里，我将分享关于加密货币投资、电脑挖矿和WEB3领域的各种视频教程和文档。无论你是新手还是有经验的投资者，我的内容都将为你提供实用的见解和操作指南。"
+baseurl: "" # 如果你的博客有子目录，这里需要填写子目录的路径
+url: "https://hugevip.top" # 将这个替换为你博客的实际网址
 
-google_analytics:
-  tracking_id: UA-XXXXX-Y
-
+# 社交媒体链接
 social:
   twitter: "https://twitter.com/huge2090"
   youtube: "https://www.youtube.com/@shoufu"
+
+# 语言设置
+language: "zh"
+
+# 其他设置
+markdown: kramdown
+highlighter: rouge
+
+# 配置文件
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# 其他配置（视项目需求可选）
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 
 
