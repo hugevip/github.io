@@ -1,22 +1,8 @@
-# 语言设置
-language: "zh"
-
-# 其他设置
-markdown: kramdown
-highlighter: rouge
-
-# 配置文件
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-# 其他配置（视项目需求可选）
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
+title: Hacker theme
+description: Hacker is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-hacker
 
 
 
